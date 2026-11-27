@@ -11,6 +11,8 @@ import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 
+import androidx.compose.ui.graphics.Color
+
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
     secondary = PurpleGrey80,
@@ -32,6 +34,14 @@ private val LightColorScheme = lightColorScheme(
     onSurface = Color(0xFF1C1B1F),
     */
 )
+
+
+
+val VerdeBosque = Color(0xFF244C46)
+val Sage = Color(0xFF6F9E96)
+val AzulPetroleo = Color(0xFF315C78)
+val AzulClarito = Color(0xFFA9C6D8)
+val RosaPastel = Color(0xFFE7B8C8)
 
 @Composable
 fun MyBookshelfSaraTheme(

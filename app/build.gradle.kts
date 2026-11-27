@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.davant.colorguesser"
+    namespace = "com.example.mybookshelfsara"
     compileSdk {
         version = release(37) {
             minorApiLevel = 1
@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.davant.colorguesser"
+        applicationId = "com.example.mybookshelfsara"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -41,6 +41,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.material3)
     implementation(libs.androidx.navigation3.runtime)
     implementation(libs.androidx.navigation3.ui)
     implementation(libs.kotlinx.serialization.core)
